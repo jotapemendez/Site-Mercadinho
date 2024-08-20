@@ -1,0 +1,34 @@
+body{
+    font-family: "Urbanist", sans-serif;
+    background-image: linear-gradient(to right, rgb(221, 127, 127),rgb(226, 73, 73));
+}
+div{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 20px;
+    color: white;
+}
+input{
+    font-family: "Urbanist", sans-serif;
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(164, 64, 64);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    background-color:  rgb(201, 93, 93);
+    cursor: pointer;
+}
