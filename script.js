@@ -28,3 +28,24 @@ function logar(){
      }
 
 }
+
+// INTERATIVIDADE DO SLIDER
+
+let count = 1;
+document.getElementById("radio1") = true;
+
+setInterval(function(){
+     nextImage();
+}, 2000)
+
+
+function nextImage(){
+     count++;
+     if(count>3){
+          count = 1;
+     }
+
+     document.getElementById("radio"+count) = true;
+
+
+}

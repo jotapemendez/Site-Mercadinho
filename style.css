@@ -165,9 +165,21 @@ img {
     color: black;
 }
 
+.img{
+    margin-right: -150px;
+}
+
+.imagesDown{
+    margin-left: -170px;
+}
+
+/* #embaixo3{
+    margin-top: -135px;
+    padding-left: 1380px;
+} */
 
  
-/* ESTILIZAÇÃO DO SLIDE NO INDEX */
+/* ESTILIZAÇÃO DO SLIDER NO INDEX */
 
 .slider{
     margin: 0 auto;
@@ -189,11 +201,17 @@ img {
 .slide{
     width: 25%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide img{
-    width: 800px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Garante que a imagem se ajuste ao container */
 }
+
 
 .manual-navigation{
     position: absolute;
@@ -201,6 +219,7 @@ img {
     margin-top: -40px;
     display: flex;
     justify-content: center;
+    
 }
 
 .manual-btn{
