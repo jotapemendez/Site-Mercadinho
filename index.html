@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercadin</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://img.icons8.com/stickers/50/stall.png">
     <style>@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');</style>
@@ -13,17 +12,23 @@
     <div class="wrapper">
         <nav>
             <ul id="abas">
-                <li><a target="blank" href="index.html">Home</a></li>
-                <li id="contact" class="dropdown-contato">Contato
+                <li><a class="hovero" style="text-decoration: none;" target="blank" href="index.html">Home</a></li>
+                <li id="contact" class="hovero" class="dropdown-contato">Contato
                     <div class="dropdown-contact">
-                        <span>(XX) X XXXX-XXXX</span>
+                        <span>(99) 9 9999-9999</span>
                     </div>
                 </li>
-                <li><a target="blank" href="QuemSomos.html">Quem Somos</a></li>
-                <li><div><input type="text" id="search-text" name="searchbar" placeholder="Pesquisar..." onkeyup="search()"></div></li>
+                <li><a class="hovero" style="text-decoration: none;" target="blank" href="QuemSomos.html">Quem Somos</a></li>
+                <li>
+                    <div>
+                    <input type="text" id="search-text" name="searchbar" placeholder="Pesquisar..." onkeyup="search()">
+                    <div id="suggestions" class="suggestions-box"></div>
+                </div>
+                </li>
             </ul>
             <hr>
         </nav>
+        <img id="symbol" width="48" height="48" src="https://img.icons8.com/fluency/48/grapes.png" alt="grapes"/>
         <!-- <ul>
             <li class="Products"><a href="frutas.html" target="_blank">Frutas</a></li>
             <li class="Products"><a href="legumes.html" target="_blank">Legumes</a></li>
@@ -66,9 +71,7 @@
             </div>
 
         </div>
-        <div>
-            <h1 style="width:100%;">></h1>
-        </div>
+        
 
         <div class="embaixo">
             <h2 id="redes">Redes Sociais</h2>
@@ -89,5 +92,6 @@
     <footer>
         <p>Desenvolvido por jotapemendez</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
